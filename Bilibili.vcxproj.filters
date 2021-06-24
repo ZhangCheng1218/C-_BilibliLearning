@@ -13,19 +13,61 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\继承">
+      <UniqueIdentifier>{1a70aa45-8af7-4b3a-8bfc-3562a14194f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\运算符重载">
+      <UniqueIdentifier>{c3d0a023-80d0-4e85-bcaa-f05f8ddb762e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\类和对象">
+      <UniqueIdentifier>{898ff12a-6acf-4649-820b-1a7eeb1c5133}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="this指针.cpp">
+      <Filter>源文件\类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="常对象和常函数.cpp">
+      <Filter>源文件\类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="成员函数做友元.cpp">
+      <Filter>源文件\类和对象</Filter>
+    </ClCompile>
     <ClCompile Include="构造函数和析构函数.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\类和对象</Filter>
     </ClCompile>
     <ClCompile Include="拷贝构造函数调用时机.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="空指针调用成员函数.cpp">
+      <Filter>源文件\类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="类做友元.cpp">
+      <Filter>源文件\类和对象</Filter>
     </ClCompile>
     <ClCompile Include="浅拷贝和深拷贝.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\类和对象</Filter>
     </ClCompile>
-    <ClCompile Include="this指针.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="友元函数.cpp">
+      <Filter>源文件\类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="01运算符重载之加法.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="02左移运算符重载.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="03递增运算符重载.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="04赋值运算符重载.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="05关系运算符重载.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="06函数调用运算符重载.cpp">
+      <Filter>源文件\运算符重载</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -139,10 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="01运算符重载之加法.cpp" />
+    <ClCompile Include="02左移运算符重载.cpp" />
+    <ClCompile Include="04赋值运算符重载.cpp" />
+    <ClCompile Include="05关系运算符重载.cpp" />
+    <ClCompile Include="06函数调用运算符重载.cpp" />
     <ClCompile Include="this指针.cpp" />
+    <ClCompile Include="友元函数.cpp" />
+    <ClCompile Include="常对象和常函数.cpp" />
+    <ClCompile Include="成员函数做友元.cpp" />
     <ClCompile Include="拷贝构造函数调用时机.cpp" />
     <ClCompile Include="构造函数和析构函数.cpp" />
     <ClCompile Include="浅拷贝和深拷贝.cpp" />
+    <ClCompile Include="空指针调用成员函数.cpp" />
+    <ClCompile Include="类做友元.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03递增运算符重载.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
