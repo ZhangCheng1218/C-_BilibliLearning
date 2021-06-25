@@ -141,11 +141,18 @@
   <ItemGroup>
     <ClCompile Include="01运算符重载之加法.cpp" />
     <ClCompile Include="02左移运算符重载.cpp" />
+    <ClCompile Include="02继承方式.cpp" />
+    <ClCompile Include="03继承中的对象模型.cpp" />
+    <ClCompile Include="04继承中构造和析构顺序.cpp" />
     <ClCompile Include="04赋值运算符重载.cpp" />
     <ClCompile Include="05关系运算符重载.cpp" />
     <ClCompile Include="06函数调用运算符重载.cpp" />
+    <ClCompile Include="06继承同名静态成员方法.cpp" />
+    <ClCompile Include="07多继承语法.cpp" />
+    <ClCompile Include="08菱形继承.cpp" />
     <ClCompile Include="this指针.cpp" />
     <ClCompile Include="友元函数.cpp" />
+    <ClCompile Include="01基本语法.cpp" />
     <ClCompile Include="常对象和常函数.cpp" />
     <ClCompile Include="成员函数做友元.cpp" />
     <ClCompile Include="拷贝构造函数调用时机.cpp" />
@@ -157,6 +164,7 @@
       </ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="03递增运算符重载.cpp" />
+    <ClCompile Include="05继承中同名成员处理方式.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

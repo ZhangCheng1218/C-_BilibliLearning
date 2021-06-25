@@ -69,5 +69,29 @@
     <ClCompile Include="06函数调用运算符重载.cpp">
       <Filter>源文件\运算符重载</Filter>
     </ClCompile>
+    <ClCompile Include="01基本语法.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="02继承方式.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="03继承中的对象模型.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="04继承中构造和析构顺序.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="05继承中同名成员处理方式.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="06继承同名静态成员方法.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="07多继承语法.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="08菱形继承.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
