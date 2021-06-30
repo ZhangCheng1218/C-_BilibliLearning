@@ -22,6 +22,15 @@
     <Filter Include="源文件\类和对象">
       <UniqueIdentifier>{898ff12a-6acf-4649-820b-1a7eeb1c5133}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\多态">
+      <UniqueIdentifier>{e143656e-45ff-41a4-a38f-08916c9626e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\文件操作">
+      <UniqueIdentifier>{c2f4581c-6648-442f-be4b-6edd149200de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\基于多态的职工管理系统">
+      <UniqueIdentifier>{03891090-d51c-4d8f-a0ff-dd18148590c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="this指针.cpp">
@@ -93,5 +102,64 @@
     <ClCompile Include="08菱形继承.cpp">
       <Filter>源文件\继承</Filter>
     </ClCompile>
+    <ClCompile Include="01多态基础.cpp">
+      <Filter>源文件\多态</Filter>
+    </ClCompile>
+    <ClCompile Include="02多态及普通方法实现计算机.cpp">
+      <Filter>源文件\多态</Filter>
+    </ClCompile>
+    <ClCompile Include="03纯虚函数和抽象类.cpp">
+      <Filter>源文件\多态</Filter>
+    </ClCompile>
+    <ClCompile Include="04多态案例-制作饮品.cpp">
+      <Filter>源文件\多态</Filter>
+    </ClCompile>
+    <ClCompile Include="05虚析构和纯虚析构.cpp">
+      <Filter>源文件\多态</Filter>
+    </ClCompile>
+    <ClCompile Include="06案例-电脑组装.cpp">
+      <Filter>源文件\多态</Filter>
+    </ClCompile>
+    <ClCompile Include="01写文本文件.cpp">
+      <Filter>源文件\文件操作</Filter>
+    </ClCompile>
+    <ClCompile Include="02读文本文件.cpp">
+      <Filter>源文件\文件操作</Filter>
+    </ClCompile>
+    <ClCompile Include="03二进制读写文件.cpp">
+      <Filter>源文件\文件操作</Filter>
+    </ClCompile>
+    <ClCompile Include="职工管理系统.cpp">
+      <Filter>源文件\基于多态的职工管理系统</Filter>
+    </ClCompile>
+    <ClCompile Include="workerManager.cpp">
+      <Filter>源文件\基于多态的职工管理系统</Filter>
+    </ClCompile>
+    <ClCompile Include="employee.cpp">
+      <Filter>源文件\基于多态的职工管理系统</Filter>
+    </ClCompile>
+    <ClCompile Include="boss.cpp">
+      <Filter>源文件\基于多态的职工管理系统</Filter>
+    </ClCompile>
+    <ClCompile Include="meneger.cpp">
+      <Filter>源文件\基于多态的职工管理系统</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="workerManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="worker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="employee.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="boss.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

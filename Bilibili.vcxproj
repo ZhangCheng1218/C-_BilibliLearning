@@ -139,20 +139,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="01写文本文件.cpp" />
+    <ClCompile Include="01多态基础.cpp" />
     <ClCompile Include="01运算符重载之加法.cpp" />
     <ClCompile Include="02左移运算符重载.cpp" />
     <ClCompile Include="02继承方式.cpp" />
+    <ClCompile Include="02读文本文件.cpp" />
+    <ClCompile Include="03二进制读写文件.cpp" />
     <ClCompile Include="03继承中的对象模型.cpp" />
+    <ClCompile Include="04多态案例-制作饮品.cpp" />
     <ClCompile Include="04继承中构造和析构顺序.cpp" />
     <ClCompile Include="04赋值运算符重载.cpp" />
     <ClCompile Include="05关系运算符重载.cpp" />
+    <ClCompile Include="05虚析构和纯虚析构.cpp" />
     <ClCompile Include="06函数调用运算符重载.cpp" />
+    <ClCompile Include="06案例-电脑组装.cpp" />
     <ClCompile Include="06继承同名静态成员方法.cpp" />
     <ClCompile Include="07多继承语法.cpp" />
     <ClCompile Include="08菱形继承.cpp" />
+    <ClCompile Include="boss.cpp" />
+    <ClCompile Include="employee.cpp" />
+    <ClCompile Include="meneger.cpp" />
     <ClCompile Include="this指针.cpp" />
+    <ClCompile Include="workerManager.cpp" />
     <ClCompile Include="友元函数.cpp" />
     <ClCompile Include="01基本语法.cpp" />
+    <ClCompile Include="02多态及普通方法实现计算机.cpp" />
     <ClCompile Include="常对象和常函数.cpp" />
     <ClCompile Include="成员函数做友元.cpp" />
     <ClCompile Include="拷贝构造函数调用时机.cpp" />
@@ -165,6 +177,15 @@
     </ClCompile>
     <ClCompile Include="03递增运算符重载.cpp" />
     <ClCompile Include="05继承中同名成员处理方式.cpp" />
+    <ClCompile Include="03纯虚函数和抽象类.cpp" />
+    <ClCompile Include="职工管理系统.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="boss.h" />
+    <ClInclude Include="employee.h" />
+    <ClInclude Include="manager.h" />
+    <ClInclude Include="worker.h" />
+    <ClInclude Include="workerManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
