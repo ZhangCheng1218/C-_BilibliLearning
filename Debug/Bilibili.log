@@ -1,7 +1,13 @@
 ﻿  workerManager.cpp
-C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(73,25): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(80,24): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(142,23): warning C4018: “<”: 有符号/无符号不匹配
-  职工管理系统.cpp
-  正在生成代码...
+C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(54,24): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(93,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(100,24): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(177,27): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(193,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(266,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(304,24): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(347,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(380,24): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(383,29): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\Documents\GitHub\Cpp_Bili\workerManager.cpp(429,25): warning C4018: “<”: 有符号/无符号不匹配
   Bilibili.vcxproj -> C:\Users\Administrator\Documents\GitHub\Cpp_Bili\Debug\Bilibili.exe

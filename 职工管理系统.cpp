@@ -8,15 +8,6 @@
 using namespace std;
 int main()
 {
-	//AbstractWorker* emp = new Employee(1,1,"小张");
-	//emp->showInfo();
-	//delete emp;
-	//emp = new Meneger(2,2,"小王");
-	//emp->showInfo();
-	//delete emp;
-	//emp = new Boss(3,3,"老张");
-	//emp->showInfo();
-	//delete emp;
 	workerManager wm;
 	int choice = 0;
 	while (true)
@@ -33,16 +24,22 @@ int main()
 			wm.AddWorker();
 			break;
 		case 2://提示
+			wm.ShowWorker();
 			break;
 		case 3://删除
+			wm.DelWorker();
 			break;
 		case 4://修改
+			wm.ModWorker();
 			break;
 		case 5://查找
+			wm.FindWorker();
 			break;
 		case 6://排序
+			wm.SortWorker();
 			break;
 		case 7://清空
+			wm.EmpWorker();
 			break;
 		default:
 			system("cls");
